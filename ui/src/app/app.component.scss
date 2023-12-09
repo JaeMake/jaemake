@@ -1,0 +1,26 @@
+:host {
+  nav {
+    background-color: purple;
+    color: white;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .main-container {
+    width: 100vw;
+    height: 100vh;
+
+    &--sidenav {
+      padding: 20px;
+      width: 15rem;
+    }
+
+    &--content {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<nav>
+  <button type="button" mat-icon-button (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  Welcome
+</nav>
+<mat-drawer-container class="main-container">
+  <mat-drawer #drawer class="main-container--sidenav" mode="side">
+    <p>Sidenav placeholder</p>
+  </mat-drawer>
+
+  <div class="main-container--content">
+    <p>Placeholder text!</p>
+  </div>
+
+</mat-drawer-container>
+<router-outlet></router-outlet>
