@@ -17,6 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/_themes"
+              ]
+            },
             "outputPath": "dist/ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -26,7 +31,7 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon-jaemake.png",
               "src/assets"
             ],
             "styles": [
@@ -87,7 +92,7 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon-jaemake.png",
               "src/assets"
             ],
             "styles": [

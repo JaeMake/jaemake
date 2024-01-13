@@ -1,0 +1,9 @@
+@use '@angular/material' as mat;
+@import '@angular/material/core/theming/_palette.scss';
+
+@include mat.core();
+
+$primary: mat.get-color-from-palette($purple-palette, 800);
+$secondary: mat.get-color-from-palette($green-palette, A400);
+$error: mat.get-color-from-palette($red-palette, A400);
+$warn: mat.get-color-from-palette($yellow-palette, 800);
